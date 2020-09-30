@@ -10,3 +10,4 @@ class Cart(models.Model):
     total = models.DecimalField(default=0.00, max_digits=9, decimal_places=2)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+
